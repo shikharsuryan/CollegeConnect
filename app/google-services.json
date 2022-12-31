@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "338322891686",
+    "project_id": "stumate-163de",
+    "storage_bucket": "stumate-163de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338322891686:android:c6b016fd38d914742ce567",
+        "android_client_info": {
+          "package_name": "com.umang.stumate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338322891686-792141ihe2gttt7m6dvu8v4naf69fou7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.umang.stumate",
+            "certificate_hash": "b28a526564e21f1fb4f4f1636599ee79ca7de4aa"
+          }
+        },
+        {
+          "client_id": "338322891686-fqhgqssf03g6jibil5c7ll0ber2lu5hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC07HXx88lXjKFV7FMVA_r-8Rri1-SGyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338322891686-fqhgqssf03g6jibil5c7ll0ber2lu5hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
