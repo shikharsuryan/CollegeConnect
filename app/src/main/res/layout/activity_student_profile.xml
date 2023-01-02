@@ -324,7 +324,7 @@
                         android:id="@+id/profileEmail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/knvrssaikiran_gmail_com"
+                        android:text="@string/work_email"
                         android:textSize="18sp"
                         android:layout_marginTop="5dp"
                         android:layout_alignParentStart="true"
