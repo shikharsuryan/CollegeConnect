@@ -20,7 +20,6 @@ import com.umang.stumate.auth.AuthenticationActivity
 import com.umang.stumate.modals.FeedbackData
 import com.umang.stumate.utils.AppPreferences
 import kotlinx.android.synthetic.main.activity_about.*
-import kotlinx.android.synthetic.main.activity_about.adView
 import kotlinx.android.synthetic.main.activity_about.bottomnav
 import kotlinx.android.synthetic.main.activity_about.closeButton
 import kotlinx.android.synthetic.main.activity_about.uploadFilesButton
@@ -37,14 +36,6 @@ class AboutActivity : AppCompatActivity() {
 
         AppPreferences.init(this)
 
-        // Google AdMob
-        MobileAds.initialize(this) {}
-        val adRequest = AdRequest.Builder().build()
-        adView.loadAd(adRequest)
-
-
-        /* Glide.with(this).load(R.drawable.saikiran).into(imageView)
-         Glide.with(this).load(R.drawable.prathyushanew).into(imageView2)*/
 
         closeButton.setOnClickListener{
             val intent = Intent(this,HomeActivity::class.java)

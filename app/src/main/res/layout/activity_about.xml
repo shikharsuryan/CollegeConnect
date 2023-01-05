@@ -107,7 +107,7 @@
                         android:layout_marginTop="15dp"
                         android:contentDescription="@string/app_name"
                         android:scaleType="centerInside"
-                        android:src="@drawable/stumate_wide" />
+                        android:src="@drawable/banner" />
 
                     <TextView
                         android:id="@+id/versionNumber"
@@ -139,14 +139,14 @@
                         android:layout_centerHorizontal="false"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="25dp"
-                        android:text="@string/about_stumate"
+                        android:text="About College Connect"
                         android:textColor="@color/colorPrimary"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <View
                         android:id="@+id/aboutDivider"
-                        android:layout_width="130dp"
+                        android:layout_width="170dp"
                         android:layout_height="3dp"
                         android:layout_below="@id/aboutApp"
                         android:layout_alignParentStart="true"
@@ -175,7 +175,7 @@
                         android:layout_below="@id/txtStumate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        android:text="@string/quot_start_succeding_stop_seeking_quot"
+                        android:text="Stop seeking, start succeeding"
                         android:textColor="@color/colorPrimary"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -455,7 +455,7 @@
                             android:backgroundTint="@color/colorGrey"
                             android:gravity="center_horizontal"
                             android:padding="5dp"
-                            android:text="@string/android_developer"
+                            android:text="Website Developer"
                             android:textColor="@color/colorPrimary"
                             android:textStyle="bold" />
 
@@ -463,7 +463,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="2dp"
                             android:layout_below="@id/imageCard4"
-                            android:layout_margin="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="8dp"
                             android:background="@color/colorGrey" />
 
 
@@ -542,7 +545,7 @@
                             android:backgroundTint="@color/colorGrey"
                             android:gravity="center_horizontal"
                             android:padding="5dp"
-                            android:text="@string/android_developer"
+                            android:text="Database Manager"
                             android:textColor="@color/colorPrimary"
                             android:textStyle="bold" />
 
@@ -645,22 +648,27 @@
                     android:layout_marginBottom="0dp"
                     android:background="@drawable/rounded_button"
                     android:layout_below="@id/edtFeedback" />
-
-                <com.google.android.gms.ads.AdView
-                    xmlns:ads="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/adView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="0dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="50dp"
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
                     android:layout_below="@id/btnSubmit"
-                    ads:adSize="MEDIUM_RECTANGLE"
-                    ads:adUnitId="@string/admob_large_banner">
-                </com.google.android.gms.ads.AdView>
-
-
+                    android:layout_margin="8dp"
+                    android:background="@color/colorGrey" />
+                <View
+                    android:id="@+id/line2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/line1"
+                    android:layout_margin="8dp"
+                    android:background="@color/colorGrey" />
+                <View
+                    android:id="@+id/line3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/line2"
+                    android:layout_margin="8dp"
+                    android:background="@color/colorGrey" />
 
                 <!--  -->
 

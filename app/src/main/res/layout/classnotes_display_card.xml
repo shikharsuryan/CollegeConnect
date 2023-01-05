@@ -129,16 +129,19 @@
             android:layout_marginTop="10dp" />
 
         <TextView
+            android:id="@+id/studentName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/posted_by_saikiran_kopparthi_5_minutes_ago"
-            android:layout_margin="10dp"
-            android:textSize="13sp"
-            android:id="@+id/studentName"
-            android:layout_toStartOf="@id/deleteIcon"
+            android:layout_below="@id/horizontalDivider"
             android:layout_alignParentStart="true"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/horizontalDivider" />
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@id/deleteIcon"
+            android:text="Posted By XYZ 1 minute ago"
+            android:textSize="13sp" />
 
         <TextView
             android:layout_width="wrap_content"

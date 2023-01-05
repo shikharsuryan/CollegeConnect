@@ -30,7 +30,6 @@ import com.umang.stumate.modals.FileUploadData
 import com.umang.stumate.utils.AppPreferences
 import kotlinx.android.synthetic.main.activity_about.*
 import kotlinx.android.synthetic.main.activity_class_notes.*
-import kotlinx.android.synthetic.main.activity_class_notes.adView
 import kotlinx.android.synthetic.main.activity_class_notes.closeButton
 import kotlinx.android.synthetic.main.activity_class_notes.divider
 import kotlinx.android.synthetic.main.activity_class_notes.searchEditText
@@ -59,11 +58,6 @@ class ClassNotesActivity : AppCompatActivity() {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
 
         AppPreferences.init(this)
-
-        // Google AdMob
-        MobileAds.initialize(this) {}
-        val adRequest = AdRequest.Builder().build()
-        adView.loadAd(adRequest)
 
 
         closeButton.setOnClickListener {

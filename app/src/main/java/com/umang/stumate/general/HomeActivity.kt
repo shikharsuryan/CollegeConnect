@@ -49,15 +49,9 @@ class HomeActivity : AppCompatActivity() {
         bottomnav=findViewById(R.id.bottomnav)
         AppPreferences.init(this)
 
-        // Google AdMob
-        MobileAds.initialize(this) {}
-        val adRequest = AdRequest.Builder().build()
-        adView.loadAd(adRequest)
-
-
 
         if(AppPreferences.isLogin) {
-            studentName.text = "Hi " + AppPreferences.studentName
+            studentName.text = "Hi, " + AppPreferences.studentName
         }
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -125,13 +119,6 @@ class HomeActivity : AppCompatActivity() {
                 R.drawable.student,
                 "New Version is Live!",
                 "New UI and added facility to send Reminders for Assignments,Exams,etc."
-            )
-        )
-        newsList.add(
-            NewsData(
-                R.drawable.stumate,
-                "Welcome to Stumate",
-                "Hope you are enjoying the App and All the Best for your Exams"
             )
         )
 

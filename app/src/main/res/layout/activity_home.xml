@@ -45,18 +45,18 @@
                     android:layout_below="@id/studentName"
                     android:layout_marginStart="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="@string/happy_to_help_you"
+                    android:text="How you doing?"
                     android:textSize="14sp" />
 
                 <include
-                    layout="@layout/custom_notification_layout"
-                    android:layout_alignParentEnd="true"
-                    android:layout_height="wrap_content"
                     android:id="@+id/notificationLayout"
-                    android:layout_marginTop="25dp"
+                    layout="@layout/custom_notification_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_marginEnd="25dp"
-                    android:layout_width="wrap_content" />
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="25dp" />
 
                 <EditText
                     android:id="@+id/searchEditText"
@@ -65,7 +65,6 @@
                     android:layout_below="@id/happyText"
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="20dp"
-                    android:focusableInTouchMode="false"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="80dp"
@@ -73,35 +72,36 @@
                     android:backgroundTint="@android:color/background_light"
                     android:drawableStart="@drawable/ic_baseline_search_24"
                     android:drawablePadding="10dp"
+                    android:focusableInTouchMode="false"
                     android:hint="@string/search_class_notes_here"
                     android:paddingStart="15dp"
                     android:paddingEnd="0dp" />
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/dashboardRecycler"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@null"
-                android:layout_marginStart="15dp"
-                android:layout_alignParentStart="true"
-                android:scrollbars="horizontal"
-                android:layout_alignParentEnd="true"
                 android:layout_below="@id/helloLayout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="15dp"
                 android:layout_marginTop="-50dp"
-                android:id="@+id/dashboardRecycler" />
+                android:background="@null"
+                android:scrollbars="horizontal" />
 
             <TextView
+                android:id="@+id/stumateNews"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/stumate_news"
-                android:textStyle="bold"
-                android:id="@+id/stumateNews"
                 android:layout_below="@id/dashboardRecycler"
+                android:layout_alignParentStart="true"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
+                android:text="News regarding College Connect"
+                android:textColor="@color/colorBlack"
                 android:textSize="20sp"
-                android:layout_alignParentStart="true"
-                android:textColor="@color/colorBlack" />
+                android:textStyle="bold" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
@@ -113,21 +113,6 @@
                 android:layout_below="@id/stumateNews"
                 android:layout_marginTop="15dp"
                 android:id="@+id/newsRecycler" />
-
-            <com.google.android.gms.ads.AdView
-                xmlns:ads="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/adView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="15dp"
-                android:layout_alignParentBottom="true"
-                android:layout_below="@id/newsRecycler"
-                ads:adSize="LARGE_BANNER"
-                ads:adUnitId="@string/admob_banner_id">
-            </com.google.android.gms.ads.AdView>
-
-
         </RelativeLayout>
     </androidx.core.widget.NestedScrollView>
 

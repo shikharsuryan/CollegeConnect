@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Stumate</string>
+    <string name="app_name">College Connect</string>
 
 
 
@@ -7,8 +7,8 @@
     <string name="here_to_get_nwelcome">Here To Get\nWelcome!</string>
     <string name="default_notification_channel_id">admin_channel</string>
     <string name="version_1_0_0">Version 1.0.0</string>
-    <string name="about_stumate">About Stumate</string>
-    <string name="stumate_is_a_realm_for_students_who_are_willing_to_store_all_the_subject_files_at_a_place_it_acts_like_a_container_and_one_can_filter_notes_at_any_time_with_a_perfect_blend_of_professionalism_we_act_as_a_catalyst_to_bring_the_required_change_in_the_society">Stumate is a realm for students who are willing to store all the Subject Files at a place. It acts like a Container and one can Filter Notes at any time with a Perfect Blend of Professionalism, We act as a Catalyst to bring the required change in the Society.</string>
+    <string name="about_stumate">About College Connect</string>
+    <string name="stumate_is_a_realm_for_students_who_are_willing_to_store_all_the_subject_files_at_a_place_it_acts_like_a_container_and_one_can_filter_notes_at_any_time_with_a_perfect_blend_of_professionalism_we_act_as_a_catalyst_to_bring_the_required_change_in_the_society">College Connect is a realm for students who are willing to store all the Subject Files at a place. It acts like a Container and one can Filter Notes at any time with a Perfect Blend of Professionalism, We act as a Catalyst to bring the required change in the Society.</string>
     <string name="quot_start_succeding_stop_seeking_quot">Start Succeding Stop Seeking</string>
     <string name="developed_by">Developed by</string>
     <string name="shikhar_name">Shikhar Suryan</string>
@@ -16,12 +16,12 @@
     <string name="prashant_name">Prashant</string>
     <string name="t3rd_year_it_t2">\BCA\t</string>
     <string name="android_developer">Android Developer</string>
-    <string name="we_will_hear_your_feedback_and_suggestions_and_try_to_add_new_features_based_on_your_request_thanks_for_using_stumate">We will hear your Feedback and Suggestions and try to add new features based on your request. Thanks for using Stumate!</string>
+    <string name="we_will_hear_your_feedback_and_suggestions_and_try_to_add_new_features_based_on_your_request_thanks_for_using_stumate">We will hear your Feedback and Suggestions and try to add new features based on your request. Thanks for using College Connect!</string>
     <string name="work_email">shikhar08214902020@msijanakpuri.com</string>
     <string name="please_give_your_valuable_feedback">Please give your valuable Feedback</string>
     <string name="submit_feedback">Submit Feedback</string>
     <string name="about_us">About Us</string>
-    <string name="excited_to_be_a_part_of_stumate">Excited to be a part of Stumate!</string>
+    <string name="excited_to_be_a_part_of_stumate">Excited to be a part of College Connect!</string>
     <string name="enter_your_email_id">Enter your Email ID</string>
     <string name="enter_password">Enter Password</string>
     <string name="forgot_password">Forgot Password?</string>
@@ -34,11 +34,11 @@
     <string name="search_by_subject_unit_author_names">Search by Subject, Unit, Author Names...</string>
     <string name="sort_by_date">Sort by Date</string>
     <string name="search_notes">Search Notes</string>
-    <string name="welcome_to_stumate">Welcome to Stumate !</string>
+    <string name="welcome_to_stumate">Welcome to College Connect !</string>
     <string name="struck_searching_your_notes_for_the_exam_or_forgot_to_submit_the_assignment_on_time_don_t_worry_we_are_there_to_help_you">Struck searching your notes for the Exam or Forgot to submit the Assignment on Time. Don\'t Worry, We are there to help you</string>
     <string name="happy_to_help_you">Happy to help you!</string>
     <string name="search_class_notes_here">Search Class Notes here...</string>
-    <string name="stumate_news">Stumate News</string>
+    <string name="stumate_news">College Connect News</string>
     <string name="schedule_reminders">Schedule Reminders</string>
     <string name="don_t_miss_any_nassignment">Don\'t miss any \nAssignment</string>
     <string name="title_of_message">Title of Message</string>
@@ -51,15 +51,14 @@
     <string name="department">Department</string>
     <string name="section">Section</string>
     <string name="t_t_tsubmit_t_t_t">\t\t\tSubmit\t\t\t</string>
-    <string name="saikiran_kopparthi">Saikiran Kopparthi</string>
+    <string name="saikiran_kopparthi">Shikhar Suryan</string>
     <string name="name_of_student">Name of Student</string>
     <string name="_91_9381384234">+91 9381384234</string>
     <string name="phone_number">Phone Number</string>
     <string name="email_id">Email ID</string>
     <string name="name_of_college">Name of College</string>
-    <string name="gmr_institute_of_technology">GMR Institute of Technology</string>
-    <string name="current_year_and_department">Current Year and Department</string>
-    <string name="_3rd_year_and_information_technology">3rd Year and Information Technology</string>
+    <string name="gmr_institute_of_technology">Maharaja Surajmal Institute</string>
+    <string name="_3rd_year_and_information_technology">3rd Year and BCA</string>
     <string name="upload_notes_or_question_papers">Upload Notes or Question Papers</string>
     <string name="upload_file">upload file</string>
     <string name="enter_subject_name">Enter Subject Name</string>
