@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.umang.stumate">
+    package="com.msi.collegeconnect">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -18,47 +18,47 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
 
-        <activity android:name=".general.AboutActivity"
+        <activity android:name="com.msi.collegeconnect.general.AboutActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".general.ViewNotificationsActivity"
+        <activity android:name="com.msi.collegeconnect.general.ViewNotificationsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".general.StudentProfileActivity"
+        <activity android:name="com.msi.collegeconnect.general.StudentProfileActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".general.FilterSubjectsActivity"
+        <activity android:name="com.msi.collegeconnect.general.FilterSubjectsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".general.ClassMatesActivity"
+        <activity android:name="com.msi.collegeconnect.general.ClassMatesActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".general.ReminderActivity"
+        <activity android:name="com.msi.collegeconnect.general.ReminderActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".general.ClassNotesActivity"
+        <activity android:name="com.msi.collegeconnect.general.ClassNotesActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".general.UploadFilesActivity"
+        <activity android:name="com.msi.collegeconnect.general.UploadFilesActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".auth.StudentDetailsActivity"
+        <activity android:name="com.msi.collegeconnect.auth.StudentDetailsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".general.HomeActivity"
+        <activity android:name="com.msi.collegeconnect.general.HomeActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
 
-        <activity android:name=".onboarding.SplashScreenActivity">
+        <activity android:name="com.msi.collegeconnect.onboarding.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -66,11 +66,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".auth.AuthenticationActivity"
+        <activity android:name="com.msi.collegeconnect.auth.AuthenticationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
-        <activity android:name=".onboarding.GettingStartedActivity"
+        <activity android:name="com.msi.collegeconnect.onboarding.GettingStartedActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
 
@@ -101,7 +101,7 @@
             android:value="@string/default_notification_channel_id" />
 
         <service
-            android:name=".firebase.MyFirebaseMessagingService"
+            android:name="com.msi.collegeconnect.firebase.MyFirebaseMessagingService"
             android:exported="false"
             android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
@@ -111,7 +111,7 @@
         </service>
 
         <receiver
-            android:name=".firebase.NotificationBroadcastReceiver"
+            android:name="com.msi.collegeconnect.firebase.NotificationBroadcastReceiver"
             tools:ignore="Instantiatable" />
 
         <uses-library

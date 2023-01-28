@@ -1,41 +1,42 @@
 {
   "project_info": {
-    "project_number": "338322891686",
-    "project_id": "stumate-163de",
-    "storage_bucket": "stumate-163de.appspot.com"
+    "project_number": "698199364115",
+    "firebase_url": "https://college-connect-7747a-default-rtdb.firebaseio.com",
+    "project_id": "college-connect-7747a",
+    "storage_bucket": "college-connect-7747a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:338322891686:android:c6b016fd38d914742ce567",
+        "mobilesdk_app_id": "1:698199364115:android:2642c4cf135367d1fbe5e6",
         "android_client_info": {
-          "package_name": "com.umang.stumate"
+          "package_name": "com.msi.collegeconnect"
         }
       },
       "oauth_client": [
         {
-          "client_id": "338322891686-792141ihe2gttt7m6dvu8v4naf69fou7.apps.googleusercontent.com",
+          "client_id": "698199364115-2pkvrenq3ci8fo9t00kcahc2j9kdchrj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.umang.stumate",
-            "certificate_hash": "b28a526564e21f1fb4f4f1636599ee79ca7de4aa"
+            "package_name": "com.msi.collegeconnect",
+            "certificate_hash": "0143d142e3d5eeeeea124189fb5a4a806b210ec3"
           }
         },
         {
-          "client_id": "338322891686-fqhgqssf03g6jibil5c7ll0ber2lu5hj.apps.googleusercontent.com",
+          "client_id": "698199364115-7mj4h8kr9jir0s874euvdvei48clqqk9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBC07HXx88lXjKFV7FMVA_r-8Rri1-SGyk"
+          "current_key": "AIzaSyC8GAdw1hBjgXuqylRmMBFuvyHJ7UbEzaA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "338322891686-fqhgqssf03g6jibil5c7ll0ber2lu5hj.apps.googleusercontent.com",
+              "client_id": "698199364115-7mj4h8kr9jir0s874euvdvei48clqqk9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

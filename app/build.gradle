@@ -9,7 +9,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.umang.stumate"
+        applicationId "com.msi.collegeconnect"
         minSdkVersion 22
         targetSdkVersion 30
         versionCode 8
